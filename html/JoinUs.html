@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>signup</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.php"><img id="logo" src="../img/logo.png" /></a>
+
+      <ul id="navbar">
+        <a href="q1.html"><li>Skin Concern</li></a>
+        <a href="#"><li>Discover</li></a>
+
+        <a href="categories.php"><li>Set</li></a>
+        <a href="#"> <li>Men</li></a>
+        <a href="#"><li>Women</li></a>
+      </ul>
+
+      <ul id="addAccount">
+        <a href="JoinUs.html"><li>Join Us</li></a>
+        <a href="SignIn.html"><li id="r_li">Sign In</li></a>
+      </ul>
+    </div>
+    <div class="container3">
+      <h1 id="f2heading">Join Us</h1>
+      <form id="form2" method="POST" action="../JoinUs.php" enctype="multipart/form-data">
+        <lable id="f2label">Please Enter Your Name</lable>
+        <br />
+        <input
+          id="f1Input"
+          type="text"
+          name="name"
+          placeholder="Enter Full Name"
+          s
+          required
+        /><br /><br />
+
+        <label id="f2label">Email Address</label>
+        <br />
+        <input
+          id="f1Input"
+          type="Email"
+          name="email"
+          placeholder="Enter Full Email"
+          required
+        /><br /><br />
+        <lable1 id="f2label">Mobile</lable1><br />
+        <input
+          id="f1Input"
+          type="number"
+          name="mobile"
+          placeholder="Enter Mobile Number"
+          required
+        /><br /><br />
+
+        <lable id="f2label">password</lable>
+        <br />
+        <input
+          id="f1Input"
+          type="password"
+          name="password"
+          placeholder="enter your password"
+          required
+        /><br /><br />
+        <label id="f2label">Address </label><br />
+
+        <input
+          id="f1Input"
+          name="address"
+          type="text"
+          placeholder="address "
+        /><br /><br />
+
+        <label id="f2label">City </label><br />
+
+        <input
+          id="f1Input"
+          name="city"
+          type="text"
+          placeholder="city"
+        /><br /><br />
+
+        <label id="f2label">Zip / Postal Code</label><br />
+
+        <input
+          id="f1Input"
+          name="postalCode"
+          type="text"
+          placeholder="zip or postal code"
+        /><br /><br />
+
+        <input id="f2btn" type="submit" value="sign up" />
+      </form>
+    </div>
+    <div class="footer">
+      <h4>where you can find us</h4>
+      <a href="#"><p id="info">byso.instagram.com</p></a>
+      <a href="#"> <p id="info">byso.facebook.com</p></a>
+      <img id="insta" src="../img/insta.png" />
+    </div>
+  </body>
+</html>
